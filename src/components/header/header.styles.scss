@@ -1,0 +1,26 @@
+.header {
+  height: 88px;
+  position:sticky;
+  background-color: #090A0C;
+  top: 0; 
+  display: flex;
+  align-items: center;
+  .logo{
+    margin-left: 32px;
+    height: auto;
+    width: 240px;
+    position: absolute;
+  }
+}
+
+hr {
+  bottom: 0;
+  margin-top: 78px;
+  display: block;
+  width: 92%;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #131313;
+  padding: 0;
+}
+
