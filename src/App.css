@@ -1,10 +1,9 @@
-
-.logo-main{
+.logo-main {
   width: 877px;
   height: auto;
   margin: auto;
 }
-.logo-div{
+.logo-div {
   height: 754px;
   width: 100%;
   display: flex;
@@ -12,31 +11,26 @@
   align-items: center;
 }
 
-
-*{
-  background-color: #090A0C;
-}
-
 .image-main {
-  background-image:linear-gradient(90deg, #090A0C 1.77%, #090A0C 49.74%, rgba(9, 10, 12, 0.84) 55.85%, rgba(9, 10, 12, 0.43) 63.38%, rgba(9, 10, 12, 0.01) 79.02%),
-  url("./assets/background.png") ;
-  width: auto;
-  height: 767px;
+  background-image: url("./assets/background.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 704px;
+  background-position: center;
 }
 
-.mail{
+.mail {
   height: 453px;
-  
 }
-p.a{
+p.a {
   font-size: 64px;
   font-weight: 600;
-  margin-top: 201px;
+  margin-top: 185px;
   margin-left: 177px;
   background-color: transparent;
 }
-p.b{
-  font-size:20px;
+p.b {
+  font-size: 20px;
   background-color: transparent;
   margin-top: 20px;
   margin-left: 177px;
