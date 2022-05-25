@@ -18,10 +18,8 @@ export default function Footer() {
         <FaYoutube className="icons" />
       </div>
       <div className="gd-foot-div">
-        <div>
-          <Logo className="gd-foot-logo" />
-        </div>
-        <div className="gd-foot-text text-all-page">
+        <Logo className="gd-foot-logo" />
+        <div className="gd-foot-text">
           We create a reliable, regulated and effortless gaming ecosystem where
           gamers can compete, network and get rewarded to further enhance their
           gaming experience.
