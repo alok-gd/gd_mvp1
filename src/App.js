@@ -11,7 +11,7 @@ const App = () => {
         <Logo className="logo-main" />
       </div>
       <div className="image-main">
-        <p className="a">Lorem Ipsum</p>
+        <p className="a">Lorem Ipsum elit dolor sit amet</p>
         <p className="b">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
           varius adipiscing odio. Tortor, ullamcorper arcu sit facilisis at

@@ -24,9 +24,12 @@
 }
 p.a {
   font-size: 64px;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 185px;
+  display: inline-block;
+  width: 559px;
   margin-left: 177px;
+  color: white;
   background-color: transparent;
 }
 p.b {
@@ -34,4 +37,15 @@ p.b {
   background-color: transparent;
   margin-top: 20px;
   margin-left: 177px;
+  text-align: start;
+  width: 632px;
+  color: white;
+}
+.text-all-page {
+  color: white;
+  font-size: 12px;
+  margin-top: 40px;
+  vertical-align: text-bottom;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
