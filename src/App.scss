@@ -11,25 +11,9 @@
   align-items: center;
 }
 
-
-.mail {
-  height: 453px;
-}
-
-/* .text-all-page {
-  color: white;
-  font-size: 12px;
-  margin-top: 40px;
-  vertical-align: text-bottom;
-  padding-top: 30px;
-  padding-bottom: 30px;
-} */
-
 .main-image-holder{
   position: relative;
   height: 704px;
-  padding-left: 32px;
-  padding-right: 32px;
   align-items: center;
   .main-image{
     max-width: 100%;
@@ -56,5 +40,83 @@
     text-align: start;
     width: 32.917vw;
     color: white;
+  }
+}
+@media only screen and (min-width: 1921px) {
+
+
+  .main-image-holder{
+    position: relative;
+    height: 704px;
+    width: 1920px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    .main-image{
+      max-width: 100%;
+      height: auto;
+      align-self: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .large-text {
+      position:absolute;
+      font-size: 64px;
+      font-weight: 700;
+      top: 185px;
+      display: inline-block;
+      width: 559px;
+      left: 177px;
+      color: white;
+      background-color: transparent;
+    }
+    .small-text {
+      position: absolute;
+      font-size: 20px;
+      text-align: start;
+      background-color: transparent;
+      top: 409px;
+      left: 177px;
+      text-align: start;
+      width: 632px;
+      color: white;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 450px) {
+  .main-image-holder{
+    position: relative;
+    height: 704px;
+    align-items: center;
+    .main-image{
+      max-width: 100%;
+      height: auto;
+    }
+    .large-text {
+      position:absolute;
+      font-size: 3.333vw;
+      font-weight: 700;
+      top: 9.635vw;
+      display: inline-block;
+      width: 29.115vw;
+      left: 10vw;
+      color: white;
+      background-color: transparent;
+    }
+    .small-text {
+      position: absolute;
+      font-size: 1.042vw;
+      text-align: start;
+      background-color: transparent;
+      top: 21.302vw;
+      left: 10vw;
+      text-align: start;
+      width: 32.917vw;
+      color: white;
+    }
   }
 }

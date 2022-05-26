@@ -20,9 +20,6 @@ const App = () => {
           curabitur leo nisl, eget.
         </div>
       </div>
-      <div className="mail">
-        <p>YOU ARE IN FOR SOMETHING EXCITING</p>
-      </div>
       <Footer />
     </div>
   );

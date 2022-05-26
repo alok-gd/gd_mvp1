@@ -11,12 +11,13 @@ p.follow {
 
 .icons-div {
   margin-top: 29px;
-  width: 555px;
+  max-width: 555px;
   justify-content: space-between;
   color: #717171;
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  padding: 5px;
 }
 .icons {
   height: 30px;
@@ -43,17 +44,22 @@ hr {
 .gd-foot-text {
   margin-top: 67px;
   color: white;
-  max-width: 450px;
+  max-width: 596px;
   font-size: 12px;
   float: right;
   font-weight: 500;
 }
 
 .gd-foot-logo {
-  margin-top: 45px;
+  margin-top: 68px;
   float: left;
   width: 304px;
   height: auto;
+}
+@media only screen and (max-width: 925px) {
+  .gd-foot-text {
+    max-width: 450px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -74,7 +80,9 @@ hr {
   }
 
   .gd-foot-text {
+    padding: 5px;
     color: white;
+    margin-top: 0px;
     max-width: 450px;
     font-size: 12px;
     text-align: center;
